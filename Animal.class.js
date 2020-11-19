@@ -74,5 +74,7 @@ function Animal (_espece, _nom, _couleur, _nbPattes, _bVole) {
         return nom + " est un/une de " + espece + " et a de couleur " 
                 + couleur + " ( " + nbPattes + " pattes )";
     }
+
+    //Class à Ajouter
    
 }
