@@ -10,6 +10,16 @@ try {
 catch (e) {
     console.error(e.message);
 }
+
+
+var tAnimaux = [poule, chien, elephant, daurade, python, flamantRose, bulle];
+for (let i in tAnimaux) {
+    console.log(tAnimaux[i].vole());
+    console.log(tAnimaux[i].dort());
+    console.log(tAnimaux[i].toString());
+}
+
+
 try{
     var truc = new Animal("mammifère", "", "marron", "hbdfj");
     var truc1 = new Animal("", "Truc_1", "blue");
@@ -22,15 +32,5 @@ try{
 }catch (e) {
     console.error(e.message);
 }
-
-
-
-var tAnimaux = [poule, chien, elephant, daurade, python, flamantRose, bulle];
-for (let i in tAnimaux) {
-    console.log(tAnimaux[i].vole());
-    console.log(tAnimaux[i].dort());
-    console.log(tAnimaux[i].toString());
-}
-
 // flamantRose.setNbPattes(2);
 // console.log(flamantRose.toString());
